@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TixHub - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TixHub 🎟️</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html" class="active">Checkout</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="checkout-section">
+        <h2>Checkout</h2>
+        <p>Enter your payment and contact information below to complete your purchase.</p>
+
+        <form class="checkout-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="+254..." required>
+
+            <label for="card">Card Number:</label>
+            <input type="text" id="card" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+
+            <label for="exp">Expiry Date:</label>
+            <input type="month" id="exp" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="password" id="cvv" maxlength="3" placeholder="***" required>
+
+            <button type="submit" class="btn">Confirm Payment</button>
+        </form>
+
+        <div class="checkout-summary">
+            <h3>Order Summary</h3>
+            <p><strong>Total:</strong> Ksh 2500</p>
