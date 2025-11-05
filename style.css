@@ -1,0 +1,375 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffcc00;
+}
+
+/* Hero section */
+.hero {
+  background: url('images/concert.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+}
+
+/* Events section */
+.events {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.events h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+.event img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.event button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.event button:hover {
+  background-color: #ffc107;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+/* Login & Register form styling */
+.form-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-box {
+  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-box button {
+  width: 100%;
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #ffc107;
+}
+
+.form-box p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-box a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-box a:hover {
+  text-decoration: underline;
+}
+/* 🎟️ General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4b2e83;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background-color: white;
+    color: #4b2e83;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom right, #4b2e83, #7c5bd6);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.2em;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Tickets Section */
+.tickets {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.ticket-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ticket-card {
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+}
+
+.ticket-card h3 {
+    color: #4b2e83;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4b2e83;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6e46c5;
+}
+
+/* Forms (Login & Register) */
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #4b2e83;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b2e83;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #6e46c5;
+}
+
+.form-box p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4b2e83;
+    color: white;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .ticket-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
